@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Listado de Pacientes</title>
+</head>
+<body>
+    <h1>Listado de Pacientes</h1>
+    <ul>
+        <% pacientes.forEach((paciente) => { %>
+            <li><%= paciente.nombre %> <%= paciente.apellido %></li>
+
+        <% }); %>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Listado de Citas</title>
+</head>
+<body>
+    <h1>Listado de Citas</h1>
+    <ul>
+        <% citas.forEach((cita) => { %>
+            <li><strong>Fecha:</strong> <%= cita.fecha %></li>
+            <li><strong>Hora:</strong> <%= cita.hora %></li>
+            <br>
+        <% }); %>
+    </ul>
+</body>
+</html>
